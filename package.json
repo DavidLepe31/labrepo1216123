@@ -1,0 +1,14 @@
+{
+  "name": "sonar-demo-proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto mínimo para análisis con SonarQube Cloud / SonarCloud",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
